@@ -1,3 +1,4 @@
 numero=(int(input('Digite um número: ')))
-resultado=numero % (numero + numero)
-print(resultado)
+for cont in range (1, (numero + 1)):
+    result=numero / cont
+    print(result)
