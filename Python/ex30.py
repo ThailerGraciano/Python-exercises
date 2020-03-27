@@ -1,3 +1,4 @@
-numero=int(input('me diga um numero qualquer: '))
-resultado=numero % 2
-print('O resultado foi {}'.format(resultado))
+print('CADASTRO')
+for cont in range (1, 5):
+    print('{}° pessoa'.format(cont))
+    name=str(input('Nome: '))
